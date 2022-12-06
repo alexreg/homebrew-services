@@ -3,8 +3,8 @@ class Flaresolverr < Formula
 
   desc "Proxy server to bypass Cloudflare protection"
   homepage "https://github.com/FlareSolverr/FlareSolverr"
-  url "https://github.com/FlareSolverr/FlareSolverr/archive/refs/tags/v2.2.7.tar.gz"
-  sha256 "2727dda2efa1ba9ce1374c52e0d0cd2d950bdb7fba98076c76aedebd625ac30d"
+  url "https://github.com/FlareSolverr/FlareSolverr/archive/refs/tags/v2.2.10.tar.gz"
+  sha256 "6d45c38d1118cfd64eac53898c6d3305c39927831663e452808a3df675109858"
   license "MIT"
   head "https://github.com/FlareSolverr/FlareSolverr.git", branch: "master"
 
