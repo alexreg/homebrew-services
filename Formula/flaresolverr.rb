@@ -6,6 +6,7 @@ class Flaresolverr < Formula
   url "https://github.com/FlareSolverr/FlareSolverr/archive/refs/tags/v2.2.10.tar.gz"
   sha256 "6d45c38d1118cfd64eac53898c6d3305c39927831663e452808a3df675109858"
   license "MIT"
+  revision 1
   head "https://github.com/FlareSolverr/FlareSolverr.git", branch: "master"
 
   depends_on "node@16"
