@@ -9,6 +9,11 @@ class Flaresolverr < Formula
   revision 1
   head "https://github.com/FlareSolverr/FlareSolverr.git", branch: "master"
 
+  bottle do
+    root_url "https://ghcr.io/v2/alexreg/services"
+    sha256 cellar: :any, monterey: "31d30f8fbca469bd9baa23c275da2e7b84d31149faa080d1318075629dbd58e7"
+  end
+
   depends_on "node@16"
 
   def node
