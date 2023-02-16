@@ -84,11 +84,11 @@ class Flaresolverr < Formula
     EOS
   end
 
-  plist_options startup: true
   service do
     run "#{bin}/flaresolverr"
     environment_variables CAPTCHA_SOLVER: "none", LOG_HTML: "false", LOG_LEVEL: "info"
     keep_alive true
+    require_root true
     log_path var/"log/flaresolverr.log"
     error_log_path var/"log/flaresolverr.log"
   end
