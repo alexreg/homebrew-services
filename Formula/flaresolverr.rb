@@ -85,7 +85,7 @@ class Flaresolverr < Formula
   end
 
   service do
-    run "#{bin}/flaresolverr"
+    run "#{opt_bin}/flaresolverr"
     environment_variables CAPTCHA_SOLVER: "none", LOG_HTML: "false", LOG_LEVEL: "info"
     keep_alive true
     require_root true
